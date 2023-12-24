@@ -215,6 +215,7 @@ public class LoanDetails extends javax.swing.JFrame {
                                     JOptionPane.showMessageDialog(this, "You have Exceed the Time to return the Book !!!! ");
                                 } else {
                                     l1.loans.remove(lo);
+                                    l1.books.add(b1);
                                 }
                             }
                         }
